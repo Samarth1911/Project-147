@@ -1,0 +1,111 @@
+<html >
+<head>
+    <title>My dream room</title>
+    <script src=" https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene  >
+        <a-entity position = " 0 2 50">
+            <a-camera>
+            </a-camera>
+        </a-entity>
+
+        <!--Wall-->
+            <a-entity>
+                <a-box
+                position = "0 10.25 0"
+                width = "50"
+                height = "20"
+                rotation = " 0 0 0"
+                src = "wall 2.jfif"
+                >
+                </a-box>
+            </a-entity>
+
+            <!--Floor-->
+            <a-entity>
+                <a-box
+                position = "0 0 11"
+                rotation = "90 0 0"
+                width = "50"
+                height = "20"
+                src = "floor.jfif"
+                >
+                </a-box>
+            </a-entity>
+
+            <!--Bed-->
+            <a-entity>
+                <a-box
+                position = "2.5 2.15 10.5"
+                width = "25"
+                height = "2.5"
+                depth = "15"
+               src = "bed.jfif"
+                ></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box
+                position = "10.5 4.15 10.5"
+                width = "7"
+                height = "4.5"
+                depth = "3"
+               src = "bed.jfif"
+                ></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box
+                position = "-5.85 4.15 10.5"
+                width = "7"
+                height = "4.5"
+                depth = "3"
+               src = "bed.jfif"
+                ></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box
+                position = "2.5 5.15 5.5"
+                width = "28"
+                height = "7"
+                depth = "2"
+               src = "wood.jfif"
+                ></a-box>
+            </a-entity>
+
+            <!--Lamp Table-->
+            <a-entity>
+                <a-box
+                position = "-17.75 2.75 7.5"
+                width = "8"
+                height = "5"
+                depth = "7"
+                src = "wood.jfif"
+                ></a-box>
+            </a-entity>
+
+            <!--Lamp-->
+            <a-entity>
+                <a-cone
+                src = "lamp.jfif"
+                position = "-17.75 9.15 7.5"
+                radius = "41.5"
+                height = "2.75"
+                ></a-cone>
+            </a-entity>
+            <a-entity>
+                <a-cylinder
+                src = "lamp.jfif"
+                position = "-17.75 6.75 7.5"
+                radius = 0.15
+                height = 4
+
+                >
+                </a-cylinder>
+            </a-entity>
+    </a-scene>
+    
+</body>
+</html>
